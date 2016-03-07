@@ -1,0 +1,8 @@
+2016-03-07 19:52:25,478 [INFO] from models.persistence.dao.impl.ItemDao in application-akka.actor.default-dispatcher-2 - Getting List of ItemEntity
+2016-03-07 19:52:25,478 [INFO] from models.persistence.dao.impl.ItemDao in application-akka.actor.default-dispatcher-2 - List query Select e from ItemEntity e
+2016-03-07 19:52:25,478 [INFO] from models.persistence.dao.play.EntityManagerProvider in application-akka.actor.default-dispatcher-2 - Getting Entity manager 
+2016-03-07 19:52:25,478 [INFO] from models.persistence.dao.play.EntityManagerProvider in application-akka.actor.default-dispatcher-2 - Returning Entity Manager org.hibernate.jpa.internal.EntityManagerImpl@6d8f5e7a
+2016-03-07 20:07:34,029 [INFO] from models.persistence.dao.impl.ProjectDao in application-akka.actor.default-dispatcher-8 - Getting List of ProjectEntity
+2016-03-07 20:07:34,030 [INFO] from models.persistence.dao.impl.ProjectDao in application-akka.actor.default-dispatcher-8 - List query Select e from ProjectEntity e
+2016-03-07 20:07:34,030 [INFO] from models.persistence.dao.play.EntityManagerProvider in application-akka.actor.default-dispatcher-8 - Getting Entity manager 
+2016-03-07 20:07:34,030 [INFO] from models.persistence.dao.play.EntityManagerProvider in application-akka.actor.default-dispatcher-8 - Returning Entity Manager org.hibernate.jpa.internal.EntityManagerImpl@40c98830
