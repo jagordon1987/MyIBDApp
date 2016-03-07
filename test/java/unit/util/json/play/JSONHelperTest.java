@@ -1,6 +1,6 @@
 package util.json.play;
 
-import common.util.json.play.JSONHelper;
+import util.util.json.play.JSONHelper;
 import org.junit.Assert;
 import org.junit.Test;
 
