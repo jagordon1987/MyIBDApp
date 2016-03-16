@@ -1,0 +1,14 @@
+<div class="container-fluid symptom-results " data-ng-controller="symptomController as symptomCtrl">
+    <h3>Symptom List - this page lists all the elements retrived from repository</h3>
+    <hr>
+    <section data-ng-repeat="symptom in symptomCtrl.symptoms | orderBy:'name' track by $index"
+             data-ng-controller="symptomItemController as symptomItemCtrl " class="row panel panel-default">
+        <div class="panel-heading">
+            <button class="btn btn-danger btn-sm glyphicon glyphicon-remove" title="Delete this symptom"
+                    data-ng-click="symptomItemCtrl.delete(symptom)"></button>
+            ID:{{symptom.id}} - {{symptom.name}} -
+            <small>Information: {{symptom.information}}</small>
+        </div>
+        <div class="panel-body">{{symptom.summary}}</div>
+    </section>
+</div>

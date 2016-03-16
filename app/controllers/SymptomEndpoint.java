@@ -6,53 +6,53 @@ import play.db.jpa.Transactional;
 import play.libs.Json;
 import play.mvc.Controller;
 import play.mvc.Result;
-import service.foods.FoodIBDServiceFacade;
+import service.symptoms.SymptomIBDServiceFacade;
 
 import javax.inject.Inject;
 import java.util.HashMap;
 import java.util.Map;
 
-public class FoodsEndpoint extends Controller
+public class SymptomEndpoint extends Controller
 {
-    private static final Logger.ALogger logger = Logger.of(FoodsEndpoint.class);
+    private static final Logger.ALogger logger = Logger.of(SymptomEndpoint.class);
 
-    private FoodIBDServiceFacade facade;
+    private SymptomIBDServiceFacade facade;
 
-    @Inject public FoodsEndpoint(FoodIBDServiceFacade facade)
+    @Inject public SymptomEndpoint(SymptomIBDServiceFacade facade)
     {
         this.facade = facade;
     }
 
     @Transactional
-    public Result listFoods()
+    public Result listSymptoms()
     {
         JsonNode jsonResponse = facade.list();
 
         return ok(jsonResponse);
     }
 
-    @Transactional public Result findFood(Long id)
+    @Transactional public Result findSymptom(Long id)
     {
         JsonNode jsonResponse = facade.find(retrieveID(id));
 
         return ok(jsonResponse);
     }
 
-    @Transactional public Result createFood()
+    @Transactional public Result createSymptom()
     {
         JsonNode jsonResponse = facade.create(request().body().asJson());
 
         return ok(jsonResponse);
     }
 
-    @Transactional public Result updateFood()
+    @Transactional public Result updateSymptom()
     {
         JsonNode jsonResponse = facade.update(request().body().asJson());
 
         return ok(jsonResponse);
     }
 
-    @Transactional public Result deleteFood(Long id)
+    @Transactional public Result deleteSymptom(Long id)
     {
         JsonNode jsonResponse = facade.delete(retrieveID(id));
 

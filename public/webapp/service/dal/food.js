@@ -23,9 +23,6 @@
         };
 
         this.deleteFood = function (deleteFood) {
-            console.log("This is the value of delete food");
-            console.log(deleteFood);
-
             return dal.http.DELETE("food/", deleteFood);
         };
 

@@ -5,6 +5,18 @@ POST        /food               controllers.FoodsEndpoint.createFood()
 PUT         /food               controllers.FoodsEndpoint.updateFood()
 DELETE      /food/:id           controllers.FoodsEndpoint.deleteFood(id: Long)
 
+GET         /symptom            controllers.SymptomEndpoint.listSymptoms()
+GET         /symptom/:id        controllers.SymptomEndpoint.findSymptom(id: Long)
+POST        /symptom            controllers.SymptomEndpoint.createSymptom()
+PUT         /symptom            controllers.SymptomEndpoint.updateSymptom()
+DELETE      /symptom/:id        controllers.SymptomEndpoint.deleteSymptom(id: Long)
+
+GET         /treatment          controllers.TreatmentEndpoint.listTreatments()
+GET         /treatment/:id      controllers.TreatmentEndpoint.findTreatment(id: Long)
+POST        /treatment          controllers.TreatmentEndpoint.createTreatment()
+PUT         /treatment          controllers.TreatmentEndpoint.updateTreatment()
+DELETE      /treatment/:id      controllers.TreatmentEndpoint.deleteTreatment(id: Long)
+
 # Homepage
 GET         /                   controllers.Assets.at(path="/public/webapp", file="index.html")
 

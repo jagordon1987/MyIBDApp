@@ -50,6 +50,48 @@
                     templateUrl: "feature/food/food-form.html"
                 }
             }
+        }).state("home.treatment", {
+            url: "/treatment",
+            views: {
+                "home-content": {
+                    templateUrl: "feature/treatment/treatment-index.html"
+                }
+            }
+        }).state("home.addtreatment", {
+            url: "/treatment/add",
+            views: {
+                "home-content": {
+                    templateUrl: "feature/treatment/treatment-form.html"
+                }
+            }
+        }).state("home.symptom", {
+            url: "/symptom",
+            views: {
+                "home-content": {
+                    templateUrl: "feature/symptom/symptom-index.html"
+                }
+            }
+        }).state("home.addsymptom", {
+            url: "/symptom/add",
+            views: {
+                "home-content": {
+                    templateUrl: "feature/symptom/symptom-form.html"
+                }
+            }
+        }).state("home.information", {
+            url: "/information",
+            views: {
+                "home-content": {
+                    templateUrl: "feature/information/information-index.html"
+                }
+            }
+        }).state("home.assistance", {
+            url: "/assistance",
+            views: {
+                "home-content": {
+                    templateUrl: "feature/assistance/assistance-index.html"
+                }
+            }
         })
     });
 }());

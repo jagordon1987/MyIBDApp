@@ -6,14 +6,30 @@
                     <a class="navbar-brand" href="#">IBDApp</a>
                 </div>
                 <ul class="nav navbar-nav">
-                    <li data-ng-class="{'active': homeCtrl.isAtDashboard()}"><a data-ng-click="homeCtrl.navigateToDashboard()">Help/Start</a></li>
+                    <li data-ng-class="{'active': homeCtrl.isAtDashboard()}"><a data-ng-click="homeCtrl.navigateToDashboard()">Dashboard</a></li>
                     <li class="dropdown" data-ng-class="{'active': homeCtrl.isAtFood() }">
-                        <a class="dropdown-toggle" data-toggle="dropdown">Manage foods <span class="caret"></span></a>
+                        <a class="dropdown-toggle" data-toggle="dropdown">Diet<span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a data-ng-click="homeCtrl.navigateToFood()">Foods</a></li>
                             <li><a data-ng-click="homeCtrl.navigateToAddFood()">Add Food</a></li>
                         </ul>
                     </li>
+                    <li class="dropdown" data-ng-class="{'active': homeCtrl.isAtTreatment() }">
+                        <a class="dropdown-toggle" data-toggle="dropdown">Treatments<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a data-ng-click="homeCtrl.navigateToTreatment()">Treatment</a></li>
+                            <li><a data-ng-click="homeCtrl.navigateToAddTreatment()">Add treatment</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown" data-ng-class="{'active': homeCtrl.isAtSymptom() }">
+                        <a class="dropdown-toggle" data-toggle="dropdown">Symptoms<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a data-ng-click="homeCtrl.navigateToSymptom()">Symptom</a></li>
+                            <li><a data-ng-click="homeCtrl.navigateToAddSymptom()">Add Symptom</a></li>
+                        </ul>
+                    </li>
+                    <li data-ng-class="{'active': homeCtrl.isAtInformation()}"><a data-ng-click="homeCtrl.navigateToInformation()">Information</a></li>
+                    <li data-ng-class="{'active': homeCtrl.isAtAssistance()}"><a data-ng-click="homeCtrl.navigateToAssistance()">Get help</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#" data-ng-click="homeCtrl.logout()"><span class="glyphicon glyphicon-log-in"></span> Logout</a> </li>

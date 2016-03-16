@@ -4,32 +4,32 @@ import com.fasterxml.jackson.databind.JsonNode;
 import persistence.dao.impl.FoodDao;
 import persistence.entities.FoodEntity;
 import play.Logger;
-import service.ServiceOperation;
-import util.util.json.play.JSONHelper;
+import service.IBDServiceOperation;
+import util.util.json.play.JSONUtil;
 
 import javax.inject.Inject;
 import java.util.List;
 
-public class ListFoodService extends ServiceOperation
+public class ListFoodIBDService extends IBDServiceOperation
 {
-    private static final Logger.ALogger logger = Logger.of(ListFoodService.class);
+    private static final Logger.ALogger logger = Logger.of(ListFoodIBDService.class);
 
     private FoodDao foodDao;
 
-    private JSONHelper jsonHelper;
+    private JSONUtil jsonUtil;
 
     @Inject
-    public ListFoodService(FoodDao foodDao, JSONHelper jsonHelper)
+    public ListFoodIBDService(FoodDao foodDao, JSONUtil jsonUtil)
     {
         this.foodDao = foodDao;
 
-        this.jsonHelper = jsonHelper;
+        this.jsonUtil = jsonUtil;
     }
 
     @Override protected JsonNode doExecute(JsonNode jsonRequest)
     {
         List<FoodEntity> foods = foodDao.list();
 
-        return jsonHelper.toJson(foods);
+        return jsonUtil.toJson(foods);
     }
 }

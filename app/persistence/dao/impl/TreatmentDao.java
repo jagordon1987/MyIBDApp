@@ -1,15 +1,15 @@
 package persistence.dao.impl;
 
 import persistence.dao.Dao;
-import persistence.entities.FoodEntity;
+import persistence.entities.TreatmentEntity;
 import util.play.EntityManagerUtility;
 
 import javax.inject.Inject;
 
-public class FoodDao extends Dao<FoodEntity>
+public class TreatmentDao extends Dao<TreatmentEntity>
 {
     @Inject
-    public FoodDao(EntityManagerUtility emp)
+    public TreatmentDao(EntityManagerUtility emp)
     {
         super(emp);
     }

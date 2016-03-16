@@ -4,19 +4,19 @@ import com.fasterxml.jackson.databind.JsonNode;
 import persistence.dao.impl.FoodDao;
 import persistence.entities.FoodEntity;
 import play.Logger;
-import service.ServiceOperation;
-import util.constants.IBDConstants;
+import service.IBDServiceOperation;
+import util.constants.IBDApplicationConstants;
 
 import javax.inject.Inject;
 
-public class CreateFoodService extends ServiceOperation
+public class CreateFoodIBDService extends IBDServiceOperation
 {
-    private static final Logger.ALogger logger = Logger.of(CreateFoodService.class);
+    private static final Logger.ALogger logger = Logger.of(CreateFoodIBDService.class);
 
     private FoodDao foodDao;
 
     @Inject
-    public CreateFoodService(FoodDao foodDao)
+    public CreateFoodIBDService(FoodDao foodDao)
     {
         this.foodDao = foodDao;
     }
@@ -33,8 +33,8 @@ public class CreateFoodService extends ServiceOperation
     private FoodEntity getFoodEntity(JsonNode jsonRequest)
     {
         FoodEntity food = new FoodEntity();
-        food.setName(jsonRequest.findPath(IBDConstants.FOOD_JSON_STATUS_NAME).textValue());
-        food.setInformation(jsonRequest.findPath(IBDConstants.FOOD_JSON_INFORMATION).textValue());
+        food.setName(jsonRequest.findPath(IBDApplicationConstants.FOOD_JSON_STATUS_NAME).textValue());
+        food.setInformation(jsonRequest.findPath(IBDApplicationConstants.FOOD_JSON_INFORMATION).textValue());
         return food;
     }
 }

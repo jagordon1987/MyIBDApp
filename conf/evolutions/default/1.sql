@@ -9,5 +9,21 @@ CREATE TABLE foods (
     PRIMARY KEY (id)
 );
 
+CREATE TABLE treatments (
+    id bigint(20) NOT NULL AUTO_INCREMENT,
+    name varchar(255) NOT NULL,
+    information varchar(255) NOT NULL,
+    PRIMARY KEY (id)
+);
+
+CREATE TABLE symptoms (
+    id bigint(20) NOT NULL AUTO_INCREMENT,
+    name varchar(255) NOT NULL,
+    information varchar(255) NOT NULL,
+    PRIMARY KEY (id)
+);
+
 # --- !Downs
 DROP TABLE foods
+DROP TABLE treatments
+DROP table symptoms

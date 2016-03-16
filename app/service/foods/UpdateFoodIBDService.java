@@ -4,19 +4,19 @@ import com.fasterxml.jackson.databind.JsonNode;
 import persistence.dao.impl.FoodDao;
 import persistence.entities.FoodEntity;
 import play.Logger;
-import service.ServiceOperation;
-import util.constants.IBDConstants;
+import service.IBDServiceOperation;
+import util.constants.IBDApplicationConstants;
 
 import javax.inject.Inject;
 
-public class UpdateFoodService extends ServiceOperation
+public class UpdateFoodIBDService extends IBDServiceOperation
 {
-    private static final Logger.ALogger logger = Logger.of(UpdateFoodService.class);
+    private static final Logger.ALogger logger = Logger.of(UpdateFoodIBDService.class);
 
     private FoodDao foodDao;
 
     @Inject
-    public UpdateFoodService(FoodDao foodDao)
+    public UpdateFoodIBDService(FoodDao foodDao)
     {
         this.foodDao = foodDao;
     }
@@ -32,13 +32,13 @@ public class UpdateFoodService extends ServiceOperation
 
     private FoodEntity getFoodEntity(JsonNode jsonRequest)
     {
-        Long id = Long.parseLong(jsonRequest.findPath(IBDConstants.FOOD_JSON_ID_PROPERTY).textValue());
+        Long id = Long.parseLong(jsonRequest.findPath(IBDApplicationConstants.FOOD_JSON_ID_PROPERTY).textValue());
 
         FoodEntity food = foodDao.find(id);
 
-        food.setName(jsonRequest.findPath(IBDConstants.FOOD_JSON_STATUS_NAME).textValue());
+        food.setName(jsonRequest.findPath(IBDApplicationConstants.FOOD_JSON_STATUS_NAME).textValue());
 
-        food.setInformation(jsonRequest.findPath(IBDConstants.FOOD_JSON_INFORMATION).textValue());
+        food.setInformation(jsonRequest.findPath(IBDApplicationConstants.FOOD_JSON_INFORMATION).textValue());
 
         return food;
     }
