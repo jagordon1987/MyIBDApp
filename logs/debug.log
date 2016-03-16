@@ -36,3 +36,206 @@
 2016-03-07 20:43:31,898 [INFO] from persistence.dao.impl.ProjectDao in application-akka.actor.default-dispatcher-5 - List query Select e from ProjectEntity e
 2016-03-07 20:43:31,898 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-5 - Getting Entity manager 
 2016-03-07 20:43:31,898 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-5 - Returning Entity Manager org.hibernate.jpa.internal.EntityManagerImpl@31f4ac9a
+2016-03-07 20:47:22,249 [INFO] from persistence.dao.impl.ProjectDao in application-akka.actor.default-dispatcher-3 - Getting List of ProjectEntity
+2016-03-07 20:47:22,250 [INFO] from persistence.dao.impl.ProjectDao in application-akka.actor.default-dispatcher-3 - List query Select e from ProjectEntity e
+2016-03-07 20:47:22,250 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-3 - Getting Entity manager 
+2016-03-07 20:47:22,250 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-3 - Returning Entity Manager org.hibernate.jpa.internal.EntityManagerImpl@61ce5ef4
+2016-03-10 18:20:58,287 [INFO] from persistence.dao.impl.ProjectDao in application-akka.actor.default-dispatcher-2 - Getting List of ProjectEntity
+2016-03-10 18:20:58,287 [INFO] from persistence.dao.impl.ProjectDao in application-akka.actor.default-dispatcher-2 - List query Select e from ProjectEntity e
+2016-03-10 18:20:58,287 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-2 - Getting Entity manager 
+2016-03-10 18:20:58,287 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-2 - Returning Entity Manager org.hibernate.jpa.internal.EntityManagerImpl@701cfeeb
+2016-03-10 18:23:27,343 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-10 - Getting List of FoodEntity
+2016-03-10 18:23:27,344 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-10 - List query Select e from FoodEntity e
+2016-03-10 18:23:27,344 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-10 - Getting Entity manager 
+2016-03-10 18:23:27,344 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-10 - Returning Entity Manager org.hibernate.jpa.internal.EntityManagerImpl@254c8f6f
+2016-03-10 18:23:40,652 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-7 - Getting Entity manager 
+2016-03-10 18:23:40,652 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-7 - Returning Entity Manager org.hibernate.jpa.internal.EntityManagerImpl@28d92755
+2016-03-10 18:24:46,198 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-10 - Getting List of FoodEntity
+2016-03-10 18:24:46,198 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-10 - List query Select e from FoodEntity e
+2016-03-10 18:24:46,198 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-10 - Getting Entity manager 
+2016-03-10 18:24:46,198 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-10 - Returning Entity Manager org.hibernate.jpa.internal.EntityManagerImpl@6d80352d
+2016-03-10 18:26:08,293 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-3 - Getting List of FoodEntity
+2016-03-10 18:26:08,293 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-3 - List query Select e from FoodEntity e
+2016-03-10 18:26:08,293 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-3 - Getting Entity manager 
+2016-03-10 18:26:08,293 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-3 - Returning Entity Manager org.hibernate.jpa.internal.EntityManagerImpl@244d2a3b
+2016-03-10 18:26:21,202 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-2 - Getting Entity manager 
+2016-03-10 18:26:21,202 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-2 - Returning Entity Manager org.hibernate.jpa.internal.EntityManagerImpl@49abf2b5
+2016-03-10 18:26:21,202 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-2 - Getting Entity manager 
+2016-03-10 18:26:21,202 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-2 - Returning Entity Manager org.hibernate.jpa.internal.EntityManagerImpl@49abf2b5
+2016-03-10 18:27:33,622 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-4 - About to persist the entity persistence.entities.FoodEntity@fe40e39
+2016-03-10 18:27:33,622 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-4 - Getting Entity manager 
+2016-03-10 18:27:33,622 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-4 - Returning Entity Manager org.hibernate.jpa.internal.EntityManagerImpl@761cf07c
+2016-03-10 18:28:45,839 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-8 - Getting Entity manager 
+2016-03-10 18:28:45,839 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-8 - Returning Entity Manager org.hibernate.jpa.internal.EntityManagerImpl@29c6e974
+2016-03-10 18:28:45,840 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-8 - Getting Entity manager 
+2016-03-10 18:28:45,841 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-8 - Returning Entity Manager org.hibernate.jpa.internal.EntityManagerImpl@29c6e974
+2016-03-10 18:33:20,319 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-5 - Getting List of FoodEntity
+2016-03-10 18:33:20,319 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-5 - List query Select e from FoodEntity e
+2016-03-10 18:33:20,319 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-5 - Getting Entity manager 
+2016-03-10 18:33:20,319 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-5 - Returning Entity Manager org.hibernate.jpa.internal.EntityManagerImpl@2b0d11a2
+2016-03-10 19:26:31,644 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-55 - Getting List of FoodEntity
+2016-03-10 19:26:31,644 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-55 - List query Select e from FoodEntity e
+2016-03-10 19:26:31,645 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-55 - Getting Entity manager 
+2016-03-10 19:26:31,645 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-55 - Returning Entity Manager org.hibernate.jpa.internal.EntityManagerImpl@20e75a5f
+2016-03-10 19:27:35,502 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-57 - About to persist the entity persistence.entities.FoodEntity@6a7fd366
+2016-03-10 19:27:35,503 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-57 - Getting Entity manager 
+2016-03-10 19:27:35,503 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-57 - Returning Entity Manager org.hibernate.jpa.internal.EntityManagerImpl@6e404af1
+2016-03-10 19:27:37,680 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-57 - Getting List of FoodEntity
+2016-03-10 19:27:37,680 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-57 - List query Select e from FoodEntity e
+2016-03-10 19:27:37,680 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-57 - Getting Entity manager 
+2016-03-10 19:27:37,680 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-57 - Returning Entity Manager org.hibernate.jpa.internal.EntityManagerImpl@124fe709
+2016-03-10 19:27:43,472 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-62 - Getting Entity manager 
+2016-03-10 19:27:43,472 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-62 - Returning Entity Manager org.hibernate.jpa.internal.EntityManagerImpl@1d1d2438
+2016-03-10 19:27:43,472 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-62 - Getting Entity manager 
+2016-03-10 19:27:43,472 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-62 - Returning Entity Manager org.hibernate.jpa.internal.EntityManagerImpl@1d1d2438
+2016-03-10 19:28:32,351 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-68 - Getting List of FoodEntity
+2016-03-10 19:28:32,351 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-68 - List query Select e from FoodEntity e
+2016-03-10 19:28:32,351 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-68 - Getting Entity manager 
+2016-03-10 19:28:32,351 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-68 - Returning Entity Manager org.hibernate.jpa.internal.EntityManagerImpl@78d38f95
+2016-03-10 19:28:39,077 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-68 - About to persist the entity persistence.entities.FoodEntity@6cd6b8e3
+2016-03-10 19:28:39,077 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-68 - Getting Entity manager 
+2016-03-10 19:28:39,077 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-68 - Returning Entity Manager org.hibernate.jpa.internal.EntityManagerImpl@89d3dcb
+2016-03-10 19:28:40,830 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-63 - Getting List of FoodEntity
+2016-03-10 19:28:40,830 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-63 - List query Select e from FoodEntity e
+2016-03-10 19:28:40,830 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-63 - Getting Entity manager 
+2016-03-10 19:28:40,830 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-63 - Returning Entity Manager org.hibernate.jpa.internal.EntityManagerImpl@5c4df97a
+2016-03-10 19:28:43,706 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-68 - Getting Entity manager 
+2016-03-10 19:28:43,706 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-68 - Returning Entity Manager org.hibernate.jpa.internal.EntityManagerImpl@59c17ae1
+2016-03-10 19:28:43,706 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-68 - Getting Entity manager 
+2016-03-10 19:28:43,706 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-68 - Returning Entity Manager org.hibernate.jpa.internal.EntityManagerImpl@59c17ae1
+2016-03-10 19:29:33,702 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-60 - Getting List of FoodEntity
+2016-03-10 19:29:33,702 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-60 - List query Select e from FoodEntity e
+2016-03-10 19:29:33,702 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-60 - Getting Entity manager 
+2016-03-10 19:29:33,702 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-60 - Returning Entity Manager org.hibernate.jpa.internal.EntityManagerImpl@3f27a731
+2016-03-10 19:29:39,275 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-74 - About to persist the entity persistence.entities.FoodEntity@7541a302
+2016-03-10 19:29:39,275 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-74 - Getting Entity manager 
+2016-03-10 19:29:39,275 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-74 - Returning Entity Manager org.hibernate.jpa.internal.EntityManagerImpl@717e2972
+2016-03-10 19:29:40,695 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-75 - Getting List of FoodEntity
+2016-03-10 19:29:40,696 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-75 - List query Select e from FoodEntity e
+2016-03-10 19:29:40,696 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-75 - Getting Entity manager 
+2016-03-10 19:29:40,696 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-75 - Returning Entity Manager org.hibernate.jpa.internal.EntityManagerImpl@4fb6876b
+2016-03-10 19:29:44,016 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-74 - Getting Entity manager 
+2016-03-10 19:29:44,016 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-74 - Returning Entity Manager org.hibernate.jpa.internal.EntityManagerImpl@7d236be6
+2016-03-10 19:29:44,016 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-74 - Getting Entity manager 
+2016-03-10 19:29:44,016 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-74 - Returning Entity Manager org.hibernate.jpa.internal.EntityManagerImpl@7d236be6
+2016-03-10 19:30:57,476 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-81 - Getting List of FoodEntity
+2016-03-10 19:30:57,476 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-81 - List query Select e from FoodEntity e
+2016-03-10 19:30:57,476 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-81 - Getting Entity manager 
+2016-03-10 19:30:57,476 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-81 - Returning Entity Manager org.hibernate.jpa.internal.EntityManagerImpl@2c82bf86
+2016-03-10 19:31:05,311 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-80 - About to persist the entity persistence.entities.FoodEntity@671d6e42
+2016-03-10 19:31:05,311 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-80 - Getting Entity manager 
+2016-03-10 19:31:05,311 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-80 - Returning Entity Manager org.hibernate.jpa.internal.EntityManagerImpl@6322e679
+2016-03-10 19:31:06,530 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-78 - Getting List of FoodEntity
+2016-03-10 19:31:06,531 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-78 - List query Select e from FoodEntity e
+2016-03-10 19:31:06,531 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-78 - Getting Entity manager 
+2016-03-10 19:31:06,531 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-78 - Returning Entity Manager org.hibernate.jpa.internal.EntityManagerImpl@698f8f0b
+2016-03-10 19:31:31,621 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-85 - Getting List of FoodEntity
+2016-03-10 19:31:31,621 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-85 - List query Select e from FoodEntity e
+2016-03-10 19:31:31,621 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-85 - Getting Entity manager 
+2016-03-10 19:31:31,621 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-85 - Returning Entity Manager org.hibernate.jpa.internal.EntityManagerImpl@70ce2b2f
+2016-03-10 19:31:33,544 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-85 - Getting Entity manager 
+2016-03-10 19:31:33,544 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-85 - Returning Entity Manager org.hibernate.jpa.internal.EntityManagerImpl@525e9d0
+2016-03-10 19:31:33,544 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-85 - Getting Entity manager 
+2016-03-10 19:31:33,545 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-85 - Returning Entity Manager org.hibernate.jpa.internal.EntityManagerImpl@525e9d0
+2016-03-10 19:31:36,919 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-87 - Getting List of FoodEntity
+2016-03-10 19:31:36,919 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-87 - List query Select e from FoodEntity e
+2016-03-10 19:31:36,919 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-87 - Getting Entity manager 
+2016-03-10 19:31:36,919 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-87 - Returning Entity Manager org.hibernate.jpa.internal.EntityManagerImpl@69879a40
+2016-03-10 19:32:04,715 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-91 - Getting List of FoodEntity
+2016-03-10 19:32:04,715 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-91 - List query Select e from FoodEntity e
+2016-03-10 19:32:04,715 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-91 - Getting Entity manager 
+2016-03-10 19:32:04,715 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-91 - Returning Entity Manager org.hibernate.jpa.internal.EntityManagerImpl@240e85d8
+2016-03-10 19:32:08,816 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-89 - About to persist the entity persistence.entities.FoodEntity@f07f39d
+2016-03-10 19:32:08,816 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-89 - Getting Entity manager 
+2016-03-10 19:32:08,816 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-89 - Returning Entity Manager org.hibernate.jpa.internal.EntityManagerImpl@b3876a5
+2016-03-10 19:32:09,819 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-84 - Getting List of FoodEntity
+2016-03-10 19:32:09,819 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-84 - List query Select e from FoodEntity e
+2016-03-10 19:32:09,819 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-84 - Getting Entity manager 
+2016-03-10 19:32:09,819 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-84 - Returning Entity Manager org.hibernate.jpa.internal.EntityManagerImpl@4c6900cd
+2016-03-10 19:32:11,886 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-89 - Getting Entity manager 
+2016-03-10 19:32:11,886 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-89 - Returning Entity Manager org.hibernate.jpa.internal.EntityManagerImpl@4f956b01
+2016-03-10 19:32:11,886 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-89 - Getting Entity manager 
+2016-03-10 19:32:11,886 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-89 - Returning Entity Manager org.hibernate.jpa.internal.EntityManagerImpl@4f956b01
+2016-03-10 19:32:59,048 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-95 - Getting List of FoodEntity
+2016-03-10 19:32:59,048 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-95 - List query Select e from FoodEntity e
+2016-03-10 19:32:59,048 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-95 - Getting Entity manager 
+2016-03-10 19:32:59,048 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-95 - Returning Entity Manager org.hibernate.jpa.internal.EntityManagerImpl@49ad91e4
+2016-03-10 19:33:03,821 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-95 - About to persist the entity persistence.entities.FoodEntity@1cd5741b
+2016-03-10 19:33:03,821 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-95 - Getting Entity manager 
+2016-03-10 19:33:03,821 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-95 - Returning Entity Manager org.hibernate.jpa.internal.EntityManagerImpl@3952f4d4
+2016-03-10 19:33:04,865 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-97 - Getting List of FoodEntity
+2016-03-10 19:33:04,865 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-97 - List query Select e from FoodEntity e
+2016-03-10 19:33:04,865 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-97 - Getting Entity manager 
+2016-03-10 19:33:04,865 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-97 - Returning Entity Manager org.hibernate.jpa.internal.EntityManagerImpl@17a77afb
+2016-03-10 19:33:07,425 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-95 - Getting Entity manager 
+2016-03-10 19:33:07,426 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-95 - Returning Entity Manager org.hibernate.jpa.internal.EntityManagerImpl@68bf6490
+2016-03-10 19:33:07,426 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-95 - Getting Entity manager 
+2016-03-10 19:33:07,426 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-95 - Returning Entity Manager org.hibernate.jpa.internal.EntityManagerImpl@68bf6490
+2016-03-10 19:36:45,089 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-100 - Getting List of FoodEntity
+2016-03-10 19:36:45,089 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-100 - List query Select e from FoodEntity e
+2016-03-10 19:36:45,089 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-100 - Getting Entity manager 
+2016-03-10 19:36:45,089 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-100 - Returning Entity Manager org.hibernate.jpa.internal.EntityManagerImpl@11cad70a
+2016-03-10 19:36:49,270 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-107 - Getting List of FoodEntity
+2016-03-10 19:36:49,270 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-107 - List query Select e from FoodEntity e
+2016-03-10 19:36:49,270 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-107 - Getting Entity manager 
+2016-03-10 19:36:49,270 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-107 - Returning Entity Manager org.hibernate.jpa.internal.EntityManagerImpl@3c5be86f
+2016-03-10 19:36:54,071 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-107 - About to persist the entity persistence.entities.FoodEntity@2faa93c4
+2016-03-10 19:36:54,071 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-107 - Getting Entity manager 
+2016-03-10 19:36:54,071 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-107 - Returning Entity Manager org.hibernate.jpa.internal.EntityManagerImpl@4cd11ece
+2016-03-10 19:36:55,041 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-107 - Getting List of FoodEntity
+2016-03-10 19:36:55,041 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-107 - List query Select e from FoodEntity e
+2016-03-10 19:36:55,041 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-107 - Getting Entity manager 
+2016-03-10 19:36:55,041 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-107 - Returning Entity Manager org.hibernate.jpa.internal.EntityManagerImpl@1d491d1b
+2016-03-10 19:37:08,262 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-102 - Getting List of FoodEntity
+2016-03-10 19:37:08,263 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-102 - List query Select e from FoodEntity e
+2016-03-10 19:37:08,263 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-102 - Getting Entity manager 
+2016-03-10 19:37:08,263 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-102 - Returning Entity Manager org.hibernate.jpa.internal.EntityManagerImpl@7c7d6140
+2016-03-10 19:37:13,799 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-103 - Getting List of FoodEntity
+2016-03-10 19:37:13,799 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-103 - List query Select e from FoodEntity e
+2016-03-10 19:37:13,799 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-103 - Getting Entity manager 
+2016-03-10 19:37:13,799 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-103 - Returning Entity Manager org.hibernate.jpa.internal.EntityManagerImpl@26e3ac44
+2016-03-10 19:37:17,963 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-103 - Getting List of FoodEntity
+2016-03-10 19:37:17,963 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-103 - List query Select e from FoodEntity e
+2016-03-10 19:37:17,963 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-103 - Getting Entity manager 
+2016-03-10 19:37:17,963 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-103 - Returning Entity Manager org.hibernate.jpa.internal.EntityManagerImpl@5673e002
+2016-03-10 19:37:22,945 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-103 - About to persist the entity persistence.entities.FoodEntity@6c23ec04
+2016-03-10 19:37:22,945 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-103 - Getting Entity manager 
+2016-03-10 19:37:22,945 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-103 - Returning Entity Manager org.hibernate.jpa.internal.EntityManagerImpl@e0ac258
+2016-03-10 19:37:24,071 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-108 - Getting List of FoodEntity
+2016-03-10 19:37:24,071 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-108 - List query Select e from FoodEntity e
+2016-03-10 19:37:24,071 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-108 - Getting Entity manager 
+2016-03-10 19:37:24,071 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-108 - Returning Entity Manager org.hibernate.jpa.internal.EntityManagerImpl@13bcbb3d
+2016-03-10 19:37:26,629 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-103 - Getting Entity manager 
+2016-03-10 19:37:26,630 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-103 - Returning Entity Manager org.hibernate.jpa.internal.EntityManagerImpl@6d922211
+2016-03-10 19:37:26,630 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-103 - Getting Entity manager 
+2016-03-10 19:37:26,630 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-103 - Returning Entity Manager org.hibernate.jpa.internal.EntityManagerImpl@6d922211
+2016-03-10 19:37:29,091 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-108 - Getting Entity manager 
+2016-03-10 19:37:29,091 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-108 - Returning Entity Manager org.hibernate.jpa.internal.EntityManagerImpl@6df8db71
+2016-03-10 19:37:29,091 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-108 - Getting Entity manager 
+2016-03-10 19:37:29,091 [INFO] from util.play.EntityManagerProvider in application-akka.actor.default-dispatcher-108 - Returning Entity Manager org.hibernate.jpa.internal.EntityManagerImpl@6df8db71
+2016-03-10 20:07:16,139 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-9 - Getting List of FoodEntity
+2016-03-10 20:07:16,139 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-9 - List query Select e from FoodEntity e
+2016-03-10 20:07:20,756 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-9 - About to persist the entity persistence.entities.FoodEntity@4974fc12
+2016-03-10 20:07:22,094 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-3 - Getting List of FoodEntity
+2016-03-10 20:07:22,094 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-3 - List query Select e from FoodEntity e
+2016-03-10 20:08:42,946 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-12 - Getting List of FoodEntity
+2016-03-10 20:08:42,946 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-12 - List query Select e from FoodEntity e
+2016-03-10 20:09:36,203 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-19 - Getting List of FoodEntity
+2016-03-10 20:09:36,204 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-19 - List query Select e from FoodEntity e
+2016-03-10 20:09:49,798 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-18 - Getting List of FoodEntity
+2016-03-10 20:09:49,798 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-18 - List query Select e from FoodEntity e
+2016-03-10 20:09:57,003 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-17 - Getting List of FoodEntity
+2016-03-10 20:09:57,003 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-17 - List query Select e from FoodEntity e
+2016-03-10 20:10:09,255 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-24 - Getting List of FoodEntity
+2016-03-10 20:10:09,256 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-24 - List query Select e from FoodEntity e
+2016-03-10 20:15:02,926 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-57 - Getting List of FoodEntity
+2016-03-10 20:15:02,926 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-57 - List query Select e from FoodEntity e
+2016-03-10 20:23:18,189 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-116 - Getting List of FoodEntity
+2016-03-10 20:23:18,190 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-116 - List query Select e from FoodEntity e
+2016-03-10 20:27:39,830 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-128 - Getting List of FoodEntity
+2016-03-10 20:27:39,830 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-128 - List query Select e from FoodEntity e
+2016-03-10 20:27:51,915 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-122 - Getting List of FoodEntity
+2016-03-10 20:27:51,915 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-122 - List query Select e from FoodEntity e
+2016-03-10 20:27:57,823 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-122 - About to persist the entity persistence.entities.FoodEntity@2284b889
+2016-03-10 20:27:59,334 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-122 - Getting List of FoodEntity
+2016-03-10 20:27:59,334 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-122 - List query Select e from FoodEntity e

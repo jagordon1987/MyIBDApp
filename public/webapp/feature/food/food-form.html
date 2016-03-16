@@ -1,0 +1,24 @@
+<div class="panel panel-default food-panel-heading" data-ng-controller="foodFormController as foodFormCtrl">
+    <div class="panel-heading ">Add new food</div>
+    <form class="panel-body container" name="foodForm"
+          data-ng-submit="foodFormCtrl.saveFood(foodForm)" method="post" novalidate="novalidate">
+        <div class="row">
+            <div class='form-group'>
+                <label for="name">Name</label>
+                <input type="text" class="form-control" data-ng-model="foodFormCtrl.food.name" placeholder="Food name"
+                       id="name"
+                       required>
+            </div>
+            <div class='form-group'>
+                <label for="information">Information</label>
+          <textarea class="form-control" rows="3" data-ng-model="foodFormCtrl.food.information" placeholder="Food information"
+                    id="information"></textarea>
+            </div>
+        </div>
+        <div class="pull-right">
+            <button type="submit" class="btn btn-primary">Save</button>
+            <button type="submit" data-ng-click="foodFormCtrl.cancel(foodForm)" class="btn btn-cancel">Cancel</button>
+        </div>
+    </form>
+
+</div>

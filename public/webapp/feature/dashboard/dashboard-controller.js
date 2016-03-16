@@ -3,10 +3,9 @@
 
     angular.module("app")
         .controller("dashboardController",
-        ["$log", DashboardCtrl]);
+        [DashboardCtrl]);
 
-    function DashboardCtrl ($log) {
+    function DashboardCtrl () {
         var vm = this;
-        $log.debug("At Start Page");
     }
 }());

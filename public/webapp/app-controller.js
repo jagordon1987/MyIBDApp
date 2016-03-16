@@ -7,12 +7,11 @@
     angular
         .module('app')
         .controller("appController",
-        ["$log", AppCtrl]);
+        [AppCtrl]);
 
 
-    function AppCtrl($log) {
+    function AppCtrl() {
         var vm = this;
-        $log.debug("Application Instantiated");
     }
 
 }());

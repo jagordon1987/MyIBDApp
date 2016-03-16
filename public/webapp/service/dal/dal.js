@@ -2,14 +2,12 @@
 
 (function () {
 
-    angular.module("app").service("dal", ["$http", "$q", "$log", Dal]);
+    angular.module("app").service("dal", ["$http", "$q", Dal]);
 
-    function Dal ($http, $q, $log) {
+    function Dal ($http, $q) {
         this.http = (function serviceCaller() {
             return {
-                /**
-                 * @returns {promise}
-                 */
+
                 GET: function (apiPath) {
                     var deferred = $q.defer();
                     $http.get(apiPath).then(function (result) {
@@ -20,9 +18,6 @@
                     return deferred.promise;
                 },
 
-                /**
-                 * @returns {promise}
-                 */
                 POST: function (apiPath, itemToSave) {
                     var deferred = $q.defer();
                     $http(
@@ -42,9 +37,7 @@
                         });
                     return deferred.promise;
                 },
-                /**
-                 * @returns {promise}
-                 */
+
                 PUT: function (apiPath, itemToSave) {
                     var deferred = $q.defer();
                     $http(
@@ -64,9 +57,7 @@
                         });
                     return deferred.promise;
                 },
-                /**
-                 * @returns {promise}
-                 */
+
                 DELETE: function (apiPath, itemToDelete) {
                     var deferred = $q.defer();
                     $http.delete(apiPath + itemToDelete.id).then(function () {
@@ -78,6 +69,5 @@
                 }
             }
         })();
-        $log.debug("DAL Instantiated");
     }
 }());
