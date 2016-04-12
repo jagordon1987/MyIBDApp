@@ -3,34 +3,34 @@
 (function () {
 
     angular.module('app')
-        .controller("foodFormController",
-        ["$log", "foodRepository", "$state", FoodFormCtrl]);
+        .controller("treatmentFormController",
+        ["$log", "treatmentRepository", "$state", TreatmentFormCtrl]);
 
-    function FoodFormCtrl($log, foodRepository, $state) {
+    function TreatmentFormCtrl($log, treatmentRepository, $state) {
         var vm = this;
         
         vm.hasValidationError = false;
 
-        vm.food = {};
+        vm.treatment = {};
 
-        vm.saveFood = function (foodForm) {
+        vm.saveTreatment = function (treatmentForm) {
             vm.hasValidationError = false;
             vm.hasSubmitError = false;
 
             var waitingDialog = BootstrapDialog.show({
-                message: 'Please wait - Creating Food'
+                message: 'Please wait - Creating Treatment'
             });
 
-            foodRepository.saveFood(vm.food).then(function (food) {
+            treatmentRepository.saveTreatment(vm.treatment).then(function (treatment) {
                 waitingDialog.close();
                 BootstrapDialog.show({
-                    message: 'Food Saved successfully',
+                    message: 'Treatment Saved successfully',
                     buttons: [{
                         id: 'button-close',
                         label: 'Close',
                         action: function (dialogWindow) {
                             dialogWindow.close();
-                            $state.go("home.food");
+                            $state.go("home.treatment");
                         }
                     }]
                 });
@@ -40,8 +40,8 @@
 
         };
 
-        vm.cancel = function (foodForm) {
-            $state.go("home.food");
+        vm.cancel = function (treatmentForm) {
+            $state.go("home.treatment");
         }
     }
 }());

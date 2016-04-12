@@ -303,3 +303,12 @@
 2016-03-16 19:53:29,010 [INFO] from persistence.dao.impl.SymptomDao in application-akka.actor.default-dispatcher-96 - About to persist the entity persistence.entities.SymptomEntity@788a6c77
 2016-03-16 19:53:30,162 [INFO] from persistence.dao.impl.SymptomDao in application-akka.actor.default-dispatcher-105 - Getting List of SymptomEntity
 2016-03-16 19:53:30,162 [INFO] from persistence.dao.impl.SymptomDao in application-akka.actor.default-dispatcher-105 - List query Select e from SymptomEntity e
+2016-03-16 19:54:48,986 [INFO] from persistence.dao.impl.SymptomDao in application-akka.actor.default-dispatcher-109 - About to persist the entity persistence.entities.SymptomEntity@555bfcf9
+2016-03-16 19:54:50,255 [INFO] from persistence.dao.impl.SymptomDao in application-akka.actor.default-dispatcher-110 - Getting List of SymptomEntity
+2016-03-16 19:54:50,256 [INFO] from persistence.dao.impl.SymptomDao in application-akka.actor.default-dispatcher-110 - List query Select e from SymptomEntity e
+2016-04-12 17:46:59,703 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-16 - Getting List of FoodEntity
+2016-04-12 17:46:59,706 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-16 - List query Select e from FoodEntity e
+2016-04-12 17:47:04,826 [INFO] from persistence.dao.impl.TreatmentDao in application-akka.actor.default-dispatcher-11 - Getting List of TreatmentEntity
+2016-04-12 17:47:04,826 [INFO] from persistence.dao.impl.TreatmentDao in application-akka.actor.default-dispatcher-11 - List query Select e from TreatmentEntity e
+2016-04-12 17:47:06,533 [INFO] from persistence.dao.impl.SymptomDao in application-akka.actor.default-dispatcher-11 - Getting List of SymptomEntity
+2016-04-12 17:47:06,533 [INFO] from persistence.dao.impl.SymptomDao in application-akka.actor.default-dispatcher-11 - List query Select e from SymptomEntity e
