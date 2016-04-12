@@ -312,3 +312,122 @@
 2016-04-12 17:47:04,826 [INFO] from persistence.dao.impl.TreatmentDao in application-akka.actor.default-dispatcher-11 - List query Select e from TreatmentEntity e
 2016-04-12 17:47:06,533 [INFO] from persistence.dao.impl.SymptomDao in application-akka.actor.default-dispatcher-11 - Getting List of SymptomEntity
 2016-04-12 17:47:06,533 [INFO] from persistence.dao.impl.SymptomDao in application-akka.actor.default-dispatcher-11 - List query Select e from SymptomEntity e
+2016-04-12 17:51:20,888 [INFO] from persistence.dao.impl.TreatmentDao in application-akka.actor.default-dispatcher-14 - Getting List of TreatmentEntity
+2016-04-12 17:51:20,889 [INFO] from persistence.dao.impl.TreatmentDao in application-akka.actor.default-dispatcher-14 - List query Select e from TreatmentEntity e
+2016-04-12 17:51:29,392 [INFO] from persistence.dao.impl.TreatmentDao in application-akka.actor.default-dispatcher-18 - About to persist the entity persistence.entities.TreatmentEntity@480a55c1
+2016-04-12 17:51:30,351 [INFO] from persistence.dao.impl.TreatmentDao in application-akka.actor.default-dispatcher-14 - Getting List of TreatmentEntity
+2016-04-12 17:51:30,351 [INFO] from persistence.dao.impl.TreatmentDao in application-akka.actor.default-dispatcher-14 - List query Select e from TreatmentEntity e
+2016-04-12 17:51:34,812 [INFO] from persistence.dao.impl.SymptomDao in application-akka.actor.default-dispatcher-18 - Getting List of SymptomEntity
+2016-04-12 17:51:34,812 [INFO] from persistence.dao.impl.SymptomDao in application-akka.actor.default-dispatcher-18 - List query Select e from SymptomEntity e
+2016-04-12 17:51:39,283 [INFO] from persistence.dao.impl.SymptomDao in application-akka.actor.default-dispatcher-18 - About to persist the entity persistence.entities.SymptomEntity@33da3c75
+2016-04-12 17:51:40,058 [INFO] from persistence.dao.impl.SymptomDao in application-akka.actor.default-dispatcher-14 - Getting List of SymptomEntity
+2016-04-12 17:51:40,058 [INFO] from persistence.dao.impl.SymptomDao in application-akka.actor.default-dispatcher-14 - List query Select e from SymptomEntity e
+2016-04-12 17:51:42,893 [INFO] from persistence.dao.impl.TreatmentDao in application-akka.actor.default-dispatcher-18 - Getting List of TreatmentEntity
+2016-04-12 17:51:42,893 [INFO] from persistence.dao.impl.TreatmentDao in application-akka.actor.default-dispatcher-18 - List query Select e from TreatmentEntity e
+2016-04-12 17:51:44,490 [INFO] from persistence.dao.impl.SymptomDao in application-akka.actor.default-dispatcher-14 - Getting List of SymptomEntity
+2016-04-12 17:51:44,490 [INFO] from persistence.dao.impl.SymptomDao in application-akka.actor.default-dispatcher-14 - List query Select e from SymptomEntity e
+2016-04-12 17:53:36,508 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-14 - Getting List of FoodEntity
+2016-04-12 17:53:36,508 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-14 - List query Select e from FoodEntity e
+2016-04-12 17:53:41,287 [INFO] from persistence.dao.impl.TreatmentDao in application-akka.actor.default-dispatcher-19 - Getting List of TreatmentEntity
+2016-04-12 17:53:41,288 [INFO] from persistence.dao.impl.TreatmentDao in application-akka.actor.default-dispatcher-19 - List query Select e from TreatmentEntity e
+2016-04-12 17:53:46,933 [INFO] from persistence.dao.impl.SymptomDao in application-akka.actor.default-dispatcher-14 - Getting List of SymptomEntity
+2016-04-12 17:53:46,933 [INFO] from persistence.dao.impl.SymptomDao in application-akka.actor.default-dispatcher-14 - List query Select e from SymptomEntity e
+2016-04-12 18:43:50,958 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-2 - Getting List of FoodEntity
+2016-04-12 18:43:50,958 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-2 - List query Select e from FoodEntity e
+2016-04-12 18:44:56,100 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-3 - About to persist the entity persistence.entities.FoodEntity@19b8fd89
+2016-04-12 18:44:56,133 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-3 - Exception creating entity org.hibernate.exception.ConstraintViolationException: could not execute statement
+javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at org.hibernate.jpa.spi.AbstractEntityManagerImpl.convert(AbstractEntityManagerImpl.java:1763) ~[hibernate-entitymanager-4.3.9.Final.jar:4.3.9.Final]
+	at org.hibernate.jpa.spi.AbstractEntityManagerImpl.convert(AbstractEntityManagerImpl.java:1677) ~[hibernate-entitymanager-4.3.9.Final.jar:4.3.9.Final]
+	at org.hibernate.jpa.spi.AbstractEntityManagerImpl.convert(AbstractEntityManagerImpl.java:1683) ~[hibernate-entitymanager-4.3.9.Final.jar:4.3.9.Final]
+	at org.hibernate.jpa.spi.AbstractEntityManagerImpl.persist(AbstractEntityManagerImpl.java:1187) ~[hibernate-entitymanager-4.3.9.Final.jar:4.3.9.Final]
+	at persistence.dao.Dao.create(Dao.java:51) ~[classes/:na]
+	at service.foods.CreateFoodIBDService.doExecute(CreateFoodIBDService.java:28) [classes/:na]
+	at service.IBDServiceOperation.execute(IBDServiceOperation.java:13) [classes/:na]
+	at service.foods.FoodIBDServiceFacade.create(FoodIBDServiceFacade.java:54) [classes/:na]
+	at controllers.FoodsEndpoint.createFood(FoodsEndpoint.java:43) [classes/:2.4.3]
+	at router.Routes$$anonfun$routes$1$$anonfun$applyOrElse$3$$anonfun$apply$3.apply(Routes.scala:385) [classes/:na]
+	at router.Routes$$anonfun$routes$1$$anonfun$applyOrElse$3$$anonfun$apply$3.apply(Routes.scala:385) [classes/:na]
+	at play.core.routing.HandlerInvokerFactory$$anon$4.resultCall(HandlerInvoker.scala:136) [play_2.11-2.4.3.jar:2.4.3]
+	at play.core.routing.HandlerInvokerFactory$JavaActionInvokerFactory$$anon$14$$anon$3$$anon$1.invocation(HandlerInvoker.scala:127) [play_2.11-2.4.3.jar:2.4.3]
+	at play.core.j.JavaAction$$anon$1.call(JavaAction.scala:70) [play_2.11-2.4.3.jar:2.4.3]
+	at play.http.DefaultHttpRequestHandler$1.call(DefaultHttpRequestHandler.java:20) [play_2.11-2.4.3.jar:2.4.3]
+	at play.db.jpa.TransactionalAction.lambda$call$5(TransactionalAction.java:19) [play-java-jpa_2.11-2.4.3.jar:2.4.3]
+	at play.db.jpa.TransactionalAction$$Lambda$55/1645137949.apply(Unknown Source) [play-java-jpa_2.11-2.4.3.jar:2.4.3]
+	at play.db.jpa.DefaultJPAApi.withTransaction(DefaultJPAApi.java:136) [play-java-jpa_2.11-2.4.3.jar:2.4.3]
+	at play.db.jpa.JPA.withTransaction(JPA.java:159) [play-java-jpa_2.11-2.4.3.jar:2.4.3]
+	at play.db.jpa.TransactionalAction.call(TransactionalAction.java:16) [play-java-jpa_2.11-2.4.3.jar:2.4.3]
+	at play.core.j.JavaAction$$anonfun$7.apply(JavaAction.scala:94) [play_2.11-2.4.3.jar:2.4.3]
+	at play.core.j.JavaAction$$anonfun$7.apply(JavaAction.scala:94) [play_2.11-2.4.3.jar:2.4.3]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) [scala-library-2.11.7.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) [scala-library-2.11.7.jar:na]
+	at play.core.j.HttpExecutionContext$$anon$2.run(HttpExecutionContext.scala:40) [play_2.11-2.4.3.jar:2.4.3]
+	at play.api.libs.iteratee.Execution$trampoline$.execute(Execution.scala:70) [play-iteratees_2.11-2.4.3.jar:2.4.3]
+	at play.core.j.HttpExecutionContext.execute(HttpExecutionContext.scala:32) [play_2.11-2.4.3.jar:2.4.3]
+	at scala.concurrent.impl.Future$.apply(Future.scala:31) [scala-library-2.11.7.jar:na]
+	at scala.concurrent.Future$.apply(Future.scala:492) [scala-library-2.11.7.jar:na]
+	at play.core.j.JavaAction.apply(JavaAction.scala:94) [play_2.11-2.4.3.jar:2.4.3]
+	at play.api.mvc.Action$$anonfun$apply$1$$anonfun$apply$4$$anonfun$apply$5.apply(Action.scala:105) [play_2.11-2.4.3.jar:2.4.3]
+	at play.api.mvc.Action$$anonfun$apply$1$$anonfun$apply$4$$anonfun$apply$5.apply(Action.scala:105) [play_2.11-2.4.3.jar:2.4.3]
+	at play.utils.Threads$.withContextClassLoader(Threads.scala:21) [play_2.11-2.4.3.jar:2.4.3]
+	at play.api.mvc.Action$$anonfun$apply$1$$anonfun$apply$4.apply(Action.scala:104) [play_2.11-2.4.3.jar:2.4.3]
+	at play.api.mvc.Action$$anonfun$apply$1$$anonfun$apply$4.apply(Action.scala:103) [play_2.11-2.4.3.jar:2.4.3]
+	at scala.Option.map(Option.scala:146) [scala-library-2.11.7.jar:na]
+	at play.api.mvc.Action$$anonfun$apply$1.apply(Action.scala:103) [play_2.11-2.4.3.jar:2.4.3]
+	at play.api.mvc.Action$$anonfun$apply$1.apply(Action.scala:96) [play_2.11-2.4.3.jar:2.4.3]
+	at play.api.libs.iteratee.Iteratee$$anonfun$mapM$1.apply(Iteratee.scala:524) [play-iteratees_2.11-2.4.3.jar:2.4.3]
+	at play.api.libs.iteratee.Iteratee$$anonfun$mapM$1.apply(Iteratee.scala:524) [play-iteratees_2.11-2.4.3.jar:2.4.3]
+	at play.api.libs.iteratee.Iteratee$$anonfun$flatMapM$1.apply(Iteratee.scala:560) [play-iteratees_2.11-2.4.3.jar:2.4.3]
+	at play.api.libs.iteratee.Iteratee$$anonfun$flatMapM$1.apply(Iteratee.scala:560) [play-iteratees_2.11-2.4.3.jar:2.4.3]
+	at play.api.libs.iteratee.Iteratee$$anonfun$flatMap$1$$anonfun$apply$14.apply(Iteratee.scala:537) [play-iteratees_2.11-2.4.3.jar:2.4.3]
+	at play.api.libs.iteratee.Iteratee$$anonfun$flatMap$1$$anonfun$apply$14.apply(Iteratee.scala:537) [play-iteratees_2.11-2.4.3.jar:2.4.3]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) [scala-library-2.11.7.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) [scala-library-2.11.7.jar:na]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:40) [akka-actor_2.11-2.3.13.jar:na]
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:397) [akka-actor_2.11-2.3.13.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [scala-library-2.11.7.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) [scala-library-2.11.7.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) [scala-library-2.11.7.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) [scala-library-2.11.7.jar:na]
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:129) ~[hibernate-core-4.3.9.Final.jar:4.3.9.Final]
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:49) ~[hibernate-core-4.3.9.Final.jar:4.3.9.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:126) ~[hibernate-core-4.3.9.Final.jar:4.3.9.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:112) ~[hibernate-core-4.3.9.Final.jar:4.3.9.Final]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:211) ~[hibernate-core-4.3.9.Final.jar:4.3.9.Final]
+	at org.hibernate.id.IdentityGenerator$GetGeneratedKeysDelegate.executeAndExtract(IdentityGenerator.java:96) ~[hibernate-core-4.3.9.Final.jar:4.3.9.Final]
+	at org.hibernate.id.insert.AbstractReturningDelegate.performInsert(AbstractReturningDelegate.java:58) ~[hibernate-core-4.3.9.Final.jar:4.3.9.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3032) ~[hibernate-core-4.3.9.Final.jar:4.3.9.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3558) ~[hibernate-core-4.3.9.Final.jar:4.3.9.Final]
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:98) ~[hibernate-core-4.3.9.Final.jar:4.3.9.Final]
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:492) ~[hibernate-core-4.3.9.Final.jar:4.3.9.Final]
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:197) ~[hibernate-core-4.3.9.Final.jar:4.3.9.Final]
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:181) ~[hibernate-core-4.3.9.Final.jar:4.3.9.Final]
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:216) ~[hibernate-core-4.3.9.Final.jar:4.3.9.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:334) ~[hibernate-core-4.3.9.Final.jar:4.3.9.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:289) ~[hibernate-core-4.3.9.Final.jar:4.3.9.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:195) ~[hibernate-core-4.3.9.Final.jar:4.3.9.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:126) ~[hibernate-core-4.3.9.Final.jar:4.3.9.Final]
+	at org.hibernate.jpa.event.internal.core.JpaPersistEventListener.saveWithGeneratedId(JpaPersistEventListener.java:84) ~[hibernate-entitymanager-4.3.9.Final.jar:4.3.9.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:206) ~[hibernate-core-4.3.9.Final.jar:4.3.9.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:149) ~[hibernate-core-4.3.9.Final.jar:4.3.9.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:75) ~[hibernate-core-4.3.9.Final.jar:4.3.9.Final]
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:811) ~[hibernate-core-4.3.9.Final.jar:4.3.9.Final]
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:784) ~[hibernate-core-4.3.9.Final.jar:4.3.9.Final]
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:789) ~[hibernate-core-4.3.9.Final.jar:4.3.9.Final]
+	at org.hibernate.jpa.spi.AbstractEntityManagerImpl.persist(AbstractEntityManagerImpl.java:1181) ~[hibernate-entitymanager-4.3.9.Final.jar:4.3.9.Final]
+	... 48 common frames omitted
+Caused by: org.h2.jdbc.JdbcSQLException: NULL not allowed for column "FOOD_GROUP"; SQL statement:
+insert into foods (id, food_group, information, name, severity) values (null, ?, ?, ?, ?) [23502-187]
+	at org.h2.engine.SessionRemote.done(SessionRemote.java:622) ~[h2-1.4.187.jar:1.4.187]
+	at org.h2.command.CommandRemote.executeUpdate(CommandRemote.java:191) ~[h2-1.4.187.jar:1.4.187]
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:157) ~[h2-1.4.187.jar:1.4.187]
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:143) ~[h2-1.4.187.jar:1.4.187]
+	at com.zaxxer.hikari.proxy.PreparedStatementProxy.executeUpdate(PreparedStatementProxy.java:61) ~[HikariCP-2.3.7.jar:na]
+	at com.zaxxer.hikari.proxy.PreparedStatementJavassistProxy.executeUpdate(PreparedStatementJavassistProxy.java) ~[HikariCP-2.3.7.jar:na]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:208) ~[hibernate-core-4.3.9.Final.jar:4.3.9.Final]
+	... 69 common frames omitted
+2016-04-12 18:45:37,104 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-6 - About to persist the entity persistence.entities.FoodEntity@74790c8a
+2016-04-12 18:46:13,516 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-7 - Getting List of FoodEntity
+2016-04-12 18:46:13,516 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-7 - List query Select e from FoodEntity e
+2016-04-12 18:46:42,567 [INFO] from persistence.dao.impl.FoodDao in application-akka.actor.default-dispatcher-8 - About to persist the entity persistence.entities.FoodEntity@cce710e

@@ -13,6 +13,12 @@ public class FoodEntity
     @Column(name = "name", nullable = false)
     private String name;
 
+    @Column(name = "food_group", nullable = false)
+    private String foodGroup;
+
+    @Column(name = "severity", nullable = false)
+    private String severity;
+
     @Column(name = "information", nullable = false)
     private String information;
 
@@ -30,6 +36,22 @@ public class FoodEntity
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getSeverity() {
+        return severity;
+    }
+
+    public void setSeverity(String severity) {
+        this.severity = severity;
+    }
+
+    public String getGroup() {
+        return foodGroup;
+    }
+
+    public void setGroup(String group) {
+        this.foodGroup = group;
     }
 
     public String getInformation() {

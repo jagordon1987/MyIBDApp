@@ -37,7 +37,8 @@ public class UpdateFoodIBDService extends IBDServiceOperation
         FoodEntity food = foodDao.find(id);
 
         food.setName(jsonRequest.findPath(IBDApplicationConstants.FOOD_JSON_STATUS_NAME).textValue());
-
+        food.setGroup(jsonRequest.findPath(IBDApplicationConstants.FOOD_JSON_STATUS_FOOD_GROUP).textValue());
+        food.setSeverity(jsonRequest.findPath(IBDApplicationConstants.FOOD_JSON_STATUS_SEVERITY).textValue());
         food.setInformation(jsonRequest.findPath(IBDApplicationConstants.FOOD_JSON_INFORMATION).textValue());
 
         return food;
